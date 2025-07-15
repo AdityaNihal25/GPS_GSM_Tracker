@@ -34,7 +34,8 @@ This project uses a GPS module to read live location coordinates and a GSM modul
 ## ⚡ Important Notes on Power
 - **SIM800L requires stable 3.7V-4.2V at ~2A peak current.**  
   Use a LiPo battery or a dedicated buck converter (not USB alone).  
-- If GSM module resets often, it means insufficient current.  
+- If GSM module resets often, it means insufficient current.
+- if possible do it on the top floor or near a window .  
 - GPS draws less (~20mA) and can run on Arduino 5V.
 
 ---
